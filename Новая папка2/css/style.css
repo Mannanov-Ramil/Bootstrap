@@ -1,0 +1,208 @@
+body {
+    min-width: 320px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #626262;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #b4ad9e;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #898377;
+}
+
+
+/*-------------navbar-----------------------------*/
+
+.navbar {
+    margin-top: 42px;
+}
+
+header .navbar-brand {
+    font-family: "Inconsolata", monospace;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+header .nav-item {
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+header .nav-item a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    transform: scale(0);
+    transition: all 0.3s;
+}
+
+header .nav-item a:hover::after {
+    transform: scale(1);
+}
+
+
+/*-------------slider-----------------------------*/
+.slider {
+    margin-top: 32px;
+    padding-bottom: 95px;
+}
+
+/*-------------singl-post-----------------------------*/
+
+.row {
+    margin: 0 80px;
+}
+
+.post-category {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+    margin-bottom: 28px;
+}
+
+.post-title {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.post-title a{
+    color: #626262;
+}
+
+.post-text {
+    line-height: 1.71;
+    margin-bottom: 50px;
+}
+
+/*-------------link-comment-----------------------------*/
+
+.link-comment {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/*-------------grid-posts-----------------------------*/
+
+.grid-posts .row {
+    margin: 0 60px;
+}
+
+.grid-posts .box {
+    padding: 0 30px;
+}
+
+.grid-posts {
+    margin-top: 134px;
+    margin-bottom: -10px;
+}
+
+.grid-posts .card {
+    border: 0;
+    margin-bottom: 130px;
+}
+
+.grid-posts .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.load-more {
+    font-size: 20px;
+    height: 60px;
+    width: 160px;
+    border-color: #626262;
+    border-radius: 0;
+    margin-top: 50px;
+}
+
+.load-more .span {
+    display: none;
+}
+
+/*-------------signup-----------------------------*/
+
+.signup {
+    height: 287px;
+    background-color: #f0f0f0;
+    padding-top: 70px;
+}
+
+.signup h3 {
+    font-size: 30px;
+    color: #333333;
+}
+
+.signup .form-row {
+    margin-top: 70px;
+}
+
+.signup .form-input {
+    position: relative;
+}
+
+.signup .form-control {
+    border: 0;
+    border-bottom: 1px solid #333333;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.signup .btn {
+    border: 0;
+    padding: 0 0;
+    background-color: #f0f0f0;
+}
+.signup .form-control:focus {
+    box-shadow: none;
+}
+
+.form-input .btn {
+    position: absolute;
+    right: 0;
+    top: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
